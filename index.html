@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Gerenciador de Fila</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gerenciador de Fila</h1>
+
+    <!-- Campo para digitar o nome -->
+    <input type="text" id="nameInput" placeholder="Digite seu nome" required>
+
+    <!-- Botão para adicionar à fila -->
+    <button id="btnAdicionar">Adicionar à Fila</button>
+
+    <!-- Botão para atender/remover o primeiro da fila -->
+    <button id="btnAtender">Atender próxima pessoa</button>
+    <div class="fila-container">
+      <!-- Área onde a fila será exibida -->
+      <h2>Fila de espera:</h2>
+      <ul id="listFila">
+        <!-- A lista de pessoas vai aparecer aqui -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
