@@ -40,6 +40,10 @@ section {
   margin-bottom: 20px;
 }
 
+.img-container p {
+  padding: 20px;
+}
+
 .btn-container {
   justify-content: center;
   align-items: center;
