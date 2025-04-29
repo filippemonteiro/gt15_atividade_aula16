@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 section {
@@ -9,38 +10,47 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: #f0f0f0;
+  max-height: 100vh;
 }
-.container {
+.container-filippe {
+  margin: 30px ;
+  padding: 30px;
 }
 
-.container p {
+.container-filippe p {
   display: flex;
   justify-content: center;
 }
 
-.container h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container2 {
+.container-filippe h1 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.container2-filippe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.text-container {
+
+.text-container2-filippe {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-.img-container {
+.text-container2-filippe h2 {
+  padding: 20px;
+}
+
+.text-container2-filippe p {
+  padding: 20px;
+}
+
+.img-container2-filippe {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,11 +58,13 @@ section {
   margin-bottom: 20px;
 }
 
-.img-container p {
-  padding: 20px;
+.img-container2-filippe img {
+  width: 400px;
+  height: 250px;
 }
 
-.btn-container {
+
+.btn-filippe {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
@@ -61,7 +73,7 @@ section {
   border: 0.05rem solid #000;
 }
 
-.btn-container2 {
+.btn2-filippe {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
